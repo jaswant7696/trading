@@ -1,0 +1,144 @@
+/* common css */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+/* img{
+    width: 100%;
+} */
+.container {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1920px;
+    padding: 0px 165px;
+}
+/* header css */
+
+.header_sec{
+    background-color:  #161D26;
+    padding-top: 58px;
+}
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list{
+    display: flex;
+    gap: 40px;
+}
+.eng_nav{
+    display: flex;
+    gap: 40px;
+}
+.eng_nav li{
+    color: #F0F1F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 15px 7px;
+}
+.nav_list li{
+    color: #F0F1F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+.cta a{
+    color: #F0F1F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+} 
+.cta{
+    background-color: #0070E4;
+    border-radius: 5px;
+    border: 1px solid #0070E4;
+    padding: 15px 7px;
+}
+.start_trading{
+    background-color: #161D26;
+    background-image: url(../images/Group.svg);
+    background-repeat: no-repeat;
+}
+.start_with_coins{
+    display: flex;
+    gap: 80px;
+    padding-top: 58px;
+}
+.coins_text{ 
+    padding-top: 138px;
+    font-family: 'Roboto', sans-serif;
+}
+.coins_main_heading{
+    font-size: 72px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 92.4px;
+    letter-spacing: 1.44px;
+    color: #fff;
+    padding-bottom: 28px;
+}
+.coins_main_heading span{
+    color: #0091FF;
+}
+.coins_sec_para{
+    color: var(--neutral-300, #CCCED9);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 630px;
+    padding-bottom: 60px;
+}
+.coin_cta{
+    margin-bottom: 174px;
+    border-radius: 4px;
+    background: var(--gradiant-1, linear-gradient(135deg, #25A1FF 0%, #0070E4 100%));
+    max-width: 170px;
+}
+.coin_cta a{
+    text-decoration: none;
+    display: inline-flex;
+    padding: 16px 36px;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.coin_master_img{
+    max-width: 645px;
+}
+
+.bitcoin{
+    display: flex;
+    gap: 18px;
+    border: 1px solid var(--neutral-paragraph-700, #40476C);
+    border-radius: 4px;
+    max-width: 240px;
+    width: 100%;
+}
+/* .BTC{
+    display: flex;
+    gap: 40px;
+} */
+.bitcoin_text{
+    padding: 10px 0px 10px 14px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: Roboto;
+    color: var(--neutral-300, #CCCED9);
+}
